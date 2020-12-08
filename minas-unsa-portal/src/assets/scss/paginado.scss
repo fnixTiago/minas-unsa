@@ -1,0 +1,108 @@
+/* .paginando{
+  border: 0;
+  border-radius: 30px !important;
+  transition: all 0.3s;
+  padding: 0px 11px;
+  margin: 0 3px;
+  min-width: 30px;
+  text-align: center;
+  height: 30px;
+  line-height: 30px;
+  color: #2c2c2c;
+  cursor: pointer;
+  font-size: 14px;
+  text-transform: uppercase;
+  background: transparent;
+  outline: none;
+}
+.separar{
+    padding:20px 20px 20px
+} */
+/* ul.paginando {
+    display: inline-block;
+    list-style:none;
+    column-count: 14;
+  }
+  
+  ul.paginando li  a {
+      display: flex;
+    color: black;
+    float: left;
+    padding: 8px 16px;
+  }
+  ul.paginando li a.active {
+    border-radius: 5px;
+} */
+
+.paginando {
+  height: 36px;
+  margin: 18px 0;
+  justify-content: center;
+  display: flex;
+}
+.paginando ul {
+  border-radius: 3px 3px 3px 3px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  display: inline-block;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+.paginando li {
+  display: inline;
+}
+.paginando a {
+  float: left;
+  border: 0;
+      border-top-color: currentcolor;
+      border-right-color: currentcolor;
+      border-bottom-color: currentcolor;
+      border-left-color: currentcolor;
+  height: 30px;
+  margin: 0 3px;
+  padding: 0px 11px;
+  position: relative;
+  font-size: 12px;
+  min-width: 30px;
+  background: transparent;
+      background-color: transparent;
+  box-sizing: border-box;
+  min-height: auto;
+  transition: all .3s;
+  font-weight: 400;
+  line-height: 30px;
+  border-radius: 30px !important;
+  first-of-type: [object Object];
+  letter-spacing: unset;
+  text-transform: uppercase;
+}
+.paginando a:hover{
+  color: white;
+  background-color: #9c27b0;
+}
+.paginando .active a {
+  background-color: #9c27b0;
+  font-size: large;
+  box-shadow: 0 4px 5px 0 rgba(156, 39, 176, 0.14), 0 1px 10px 0 rgba(156, 39, 176, 0.12), 0 2px 4px -1px rgba(156, 39, 176, 0.2);
+}
+.paginando .active a {
+  color: white;
+  cursor: default;
+}
+.paginando .disabled a, .paginando .disabled a:hover {
+  background-color: transparent;
+  cursor: default;
+}
+.paginando li:first-child a {
+  border-left-width: 1px;
+  border-radius:50%;
+}
+.paginando li:last-child a {
+  // border-radius: 0 3px 3px 0;
+  border-radius:50%;
+}
+.paginando-centered {
+  text-align: center;
+}
+.paginando-right {
+  text-align: right;
+}
